@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,9 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Day1Input.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Completed\Day1Part1.cs" />
+    <None Include="Completed\Day1Part2.cs" />
   </ItemGroup>
 
 </Project>
